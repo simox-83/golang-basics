@@ -59,8 +59,3 @@ func main() {
 
 	fmt.Printf("La stringa risultante e' %s, di tipo %T\n", string(arr), string(arr))
 }
-
-func Scale(t, i string) []string {
-	s := []string{"A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"}
-	return s
-}
