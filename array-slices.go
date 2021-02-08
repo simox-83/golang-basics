@@ -50,7 +50,7 @@ func main() {
 	s[0] = 10
 	fmt.Println("s contiene ", s, "b contiene", b)
 
-	for i, _ := range s {
+	for i := range s {
 		s[i] *= 3
 	}
 	fmt.Println("s contiene ", s, "b contiene", b)

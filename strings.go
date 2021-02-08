@@ -35,7 +35,7 @@ func main() {
 		}
 
 	}
-	fmt.Printf("Ci sono %d 'ñ' nella stringa\n", conta)
+	fmt.Printf("Ci sono %d 'ñ' nella stringa\n", conta) // Ce ne sono zero! s[i] e' una rune, non un carattere...
 
 	r := ""
 
